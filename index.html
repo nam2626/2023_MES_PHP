@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>학사정보 관리 페이지</h2>
+    <!-- 로그인 페이지 -->
+    <form action="/action/login.php" method="post">
+        <input type="text" name="id" placeholder="아이디">
+        <input type="password" name="passwd" placeholder="비밀번호">
+        <button>로그인</button>    
+    </form>
+    <!-- CSS -->
+    <style>
+        h2{
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        input {
+            width: 300px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>
